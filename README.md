@@ -88,8 +88,8 @@ Linux | Git
 
 ### Fase 4 - Abrir o PR com a atualização do projeto
 
-* [ ] Subir arquivo de script criado para a conta Github
+* [X] Subir arquivo de script criado para a conta Github
 
 ### Fase 5 - Submissão do repositório do projeto
 
-* [ ] Submeter em **`Entregar Projeto`** o link do repositório atualizado
+* [X] Submeter em **`Entregar Projeto`** o link do repositório atualizado
