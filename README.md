@@ -26,7 +26,7 @@ Linux | Git
   * `# cat etc/passwd`
 
 * Executando a exclusão dos usuários
-  * `# userdel -r LOGIN`
+  * `# userdel -r [LOGIN]`
 
 #### Excluir grupos criados anteriormente
 
@@ -34,7 +34,7 @@ Linux | Git
   * `# cat /etc/group`
 
 * Executando a exclusão dos grupos
-  * `# groupdel GROUP`
+  * `# groupdel [GROUP]`
 
 ### Fase 2 - Provisionar a estrutura de diretórios, grupos e usuários
 
