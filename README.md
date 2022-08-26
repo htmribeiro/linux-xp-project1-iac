@@ -18,12 +18,7 @@ Linux | Git
 
 #### Excluir arquivos e diretórios criados anteriormente
 
-* `# rm -Rf adm/`
-* `# rm -Rf Publica/`
-* `# rm -Rf Downloads/`
-* `# rm -Rf mariana/`
-* `# rm -Rf Textos/`
-* `# rm -Rf ven/`
+* `# rm -Rf [FILE]`
 
 #### Excluir usuários criados anteriormente
 
@@ -31,18 +26,7 @@ Linux | Git
   * `# cat etc/passwd`
 
 * Executando a exclusão dos usuários
-  * `# userdel -r guest`
-  * `# userdel -r guest10`
-  * `# userdel -r guest11`
-  * `# userdel -r guest12`
-  * `# userdel -r guest13`
-  * `# userdel -r convidado1`
-  * `# userdel -r mariana`
-  * `# userdel -r rodrigo`
-  * `# userdel -r debora`
-  * `# userdel -r daniel`
-  * `# userdel -r marisa`
-  * `# userdel -r joao`
+  * `# userdel -r LOGIN`
 
 #### Excluir grupos criados anteriormente
 
@@ -50,8 +34,7 @@ Linux | Git
   * `# cat /etc/group`
 
 * Executando a exclusão dos grupos
-  * `# groupdel GRP_ADM`
-  * `# groupdel GRP_VEN`
+  * `# groupdel GROUP`
 
 ### Fase 2 - Provisionar a estrutura de diretórios, grupos e usuários
 
