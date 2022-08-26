@@ -38,3 +38,27 @@ useradd amanda -c"Amanda Ribeiro" -m -s /bin/bash -p $(openssl passwd "Senha123"
 useradd rogerio -c"Rogerio Santana" -m -s /bin/bash -p $(openssl passwd "Senha123") -G GRP_VEN
 
 echo "Usuários criados com sucesso!"
+
+echo "============================================="
+echo ">>> Especificando os donos dos diretórios <<<"
+echo "============================================="
+
+chown root:GRP_ADM /adm
+chown root:GRP_VEN /ven
+chown root:GRP_SEC /sec
+
+echo "Donos dos diretórios especificados com sucesso!"
+
+echo "========================================================="
+echo ">>> Especificando permissões de acesso aos diretórios <<<"
+echo "========================================================="
+
+chmod 770 /adm
+chmod 770 /ven
+chmod 770 /sec
+
+chmod 777 /publico
+
+echo "Permissões adicionadas com sucesso!"
+
+echo "Fim do script."

@@ -73,10 +73,18 @@ Linux | Git
 
 ### Fase 3 - Provisionar as permissões de acesso aos usuários
 
-* [ ] O **dono** de *todos os diretórios* criados será o usuário **root**
-* [ ] Todos os usuários terão permissão total dentro do diretório **público**
-* [ ] Os usuários de cada grupo terão permissão total dentro de seu respectivo diretório
-* [ ] Os usuário não poderão ter permissão de leitura, escrita e execução em diretórios de departamentos,o qual não pertençam.
+* [X] O **dono** de *todos os diretórios* criados será o usuário **root**
+  * **`chown root:`**
+
+* [X] Os usuários de cada grupo terão permissão total dentro de seu respectivo diretório
+* [X] Os usuário não poderão ter permissão de leitura, escrita e execução em diretórios de departamentos,o qual não pertençam.
+  * `# chmod 770`
+
+* [X] Todos os usuários terão permissão total dentro do diretório **público**
+  * `# chmod 770`
+
+* [X] Incluindo permissão de execução ao arquivo `iac.sh`
+  * `chmod +x iac.sh`
 
 ### Fase 4 - Abrir o PR com a atualização do projeto
 
