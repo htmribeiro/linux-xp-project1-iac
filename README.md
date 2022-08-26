@@ -55,9 +55,21 @@ Linux | Git
 
 ### Fase 2 - Provisionar a estrutura de diretórios, grupos e usuários
 
-* [ ] Diretórios
-* [ ] Grupos
-* [ ] Usuários
+* [X] Diretórios
+* [X] Grupos
+* [X] Usuários
+
+#### Criação dos diretórios
+
+* **`mkdir`**
+
+#### Criação dos grupos
+
+* **`groupadd`**
+
+#### Criação dos Usuários
+
+* **`useradd`**
 
 ### Fase 3 - Provisionar as permissões de acesso aos usuários
 
